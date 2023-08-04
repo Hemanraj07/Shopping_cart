@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+}
+.unline{
+    border-bottom: 1px solid white;
+}
+body{
+    background-color: skyblue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav .meShopLogo{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav .navBar{
+    display: flex;
+    gap: 3vw;
+}
+.navBar li {
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navBar li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navLinks:hover a{
+    border-bottom: 1px solid white;
+}
+/* Main Section */
+.main{
+    display: flex;
+}
+.main div{
+    margin: 8vh 4vw;
+}
+.main div h1{
+    margin: 3vh 0px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.main div p{
+    font-size: 18px;
+    margin-bottom: 6vh;
+}
+.main div button{
+    width: 85px;
+    padding: 5px;
+    cursor: pointer;
+}
+.loginBtn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.loginBtn:hover{
+    background-color: navy;
+    border-color: navy;
+}
+#signupBtn{
+    border-color: white;
+    font-weight: 400;
+    text-transform:uppercase;
+    font-size: 15px;
+}
+#signupBtn:hover{
+    background-color: navy;
+    border:  navy;
+    color: white;
+}
+.main img{
+    width: 50vw;
+    margin-top: 10vh;
+}
